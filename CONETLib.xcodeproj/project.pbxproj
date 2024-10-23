@@ -18,11 +18,28 @@
 			remoteGlobalIDString = D0A2A97E2CC929F9000B4ACF;
 			remoteInfo = CONETLib;
 		};
+		D0A2A9AE2CC92B26000B4ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A2A9762CC929F9000B4ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A2A99D2CC92B25000B4ACF;
+			remoteInfo = CONETLibsExamples;
+		};
+		D0A2A9B82CC92B26000B4ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A2A9762CC929F9000B4ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A2A99D2CC92B25000B4ACF;
+			remoteInfo = CONETLibsExamples;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D0A2A97F2CC929F9000B4ACF /* CONETLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CONETLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A2A9892CC929F9000B4ACF /* CONETLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CONETLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A2A99E2CC92B25000B4ACF /* CONETLibsExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CONETLibsExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A2A9AD2CC92B26000B4ACF /* CONETLibsExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CONETLibsExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A2A9B72CC92B26000B4ACF /* CONETLibsExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CONETLibsExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -49,6 +66,21 @@
 			path = CONETLibTests;
 			sourceTree = "<group>";
 		};
+		D0A2A99F2CC92B25000B4ACF /* CONETLibsExamples */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CONETLibsExamples;
+			sourceTree = "<group>";
+		};
+		D0A2A9B02CC92B26000B4ACF /* CONETLibsExamplesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CONETLibsExamplesTests;
+			sourceTree = "<group>";
+		};
+		D0A2A9BA2CC92B26000B4ACF /* CONETLibsExamplesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CONETLibsExamplesUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +99,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0A2A99B2CC92B25000B4ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A2A9AA2CC92B26000B4ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A2A9B42CC92B26000B4ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +128,9 @@
 			children = (
 				D0A2A9812CC929F9000B4ACF /* CONETLib */,
 				D0A2A98D2CC929F9000B4ACF /* CONETLibTests */,
+				D0A2A99F2CC92B25000B4ACF /* CONETLibsExamples */,
+				D0A2A9B02CC92B26000B4ACF /* CONETLibsExamplesTests */,
+				D0A2A9BA2CC92B26000B4ACF /* CONETLibsExamplesUITests */,
 				D0A2A9802CC929F9000B4ACF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +140,9 @@
 			children = (
 				D0A2A97F2CC929F9000B4ACF /* CONETLib.framework */,
 				D0A2A9892CC929F9000B4ACF /* CONETLibTests.xctest */,
+				D0A2A99E2CC92B25000B4ACF /* CONETLibsExamples.app */,
+				D0A2A9AD2CC92B26000B4ACF /* CONETLibsExamplesTests.xctest */,
+				D0A2A9B72CC92B26000B4ACF /* CONETLibsExamplesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +206,74 @@
 			productReference = D0A2A9892CC929F9000B4ACF /* CONETLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D0A2A99D2CC92B25000B4ACF /* CONETLibsExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A2A9BF2CC92B26000B4ACF /* Build configuration list for PBXNativeTarget "CONETLibsExamples" */;
+			buildPhases = (
+				D0A2A99A2CC92B25000B4ACF /* Sources */,
+				D0A2A99B2CC92B25000B4ACF /* Frameworks */,
+				D0A2A99C2CC92B25000B4ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D0A2A99F2CC92B25000B4ACF /* CONETLibsExamples */,
+			);
+			name = CONETLibsExamples;
+			packageProductDependencies = (
+			);
+			productName = CONETLibsExamples;
+			productReference = D0A2A99E2CC92B25000B4ACF /* CONETLibsExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0A2A9AC2CC92B26000B4ACF /* CONETLibsExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A2A9C22CC92B26000B4ACF /* Build configuration list for PBXNativeTarget "CONETLibsExamplesTests" */;
+			buildPhases = (
+				D0A2A9A92CC92B26000B4ACF /* Sources */,
+				D0A2A9AA2CC92B26000B4ACF /* Frameworks */,
+				D0A2A9AB2CC92B26000B4ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0A2A9AF2CC92B26000B4ACF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0A2A9B02CC92B26000B4ACF /* CONETLibsExamplesTests */,
+			);
+			name = CONETLibsExamplesTests;
+			packageProductDependencies = (
+			);
+			productName = CONETLibsExamplesTests;
+			productReference = D0A2A9AD2CC92B26000B4ACF /* CONETLibsExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0A2A9B62CC92B26000B4ACF /* CONETLibsExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A2A9C52CC92B26000B4ACF /* Build configuration list for PBXNativeTarget "CONETLibsExamplesUITests" */;
+			buildPhases = (
+				D0A2A9B32CC92B26000B4ACF /* Sources */,
+				D0A2A9B42CC92B26000B4ACF /* Frameworks */,
+				D0A2A9B52CC92B26000B4ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0A2A9B92CC92B26000B4ACF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0A2A9BA2CC92B26000B4ACF /* CONETLibsExamplesUITests */,
+			);
+			name = CONETLibsExamplesUITests;
+			packageProductDependencies = (
+			);
+			productName = CONETLibsExamplesUITests;
+			productReference = D0A2A9B72CC92B26000B4ACF /* CONETLibsExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,6 +289,17 @@
 					};
 					D0A2A9882CC929F9000B4ACF = {
 						CreatedOnToolsVersion = 16.0;
+					};
+					D0A2A99D2CC92B25000B4ACF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D0A2A9AC2CC92B26000B4ACF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D0A2A99D2CC92B25000B4ACF;
+					};
+					D0A2A9B62CC92B26000B4ACF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D0A2A99D2CC92B25000B4ACF;
 					};
 				};
 			};
@@ -181,6 +319,9 @@
 			targets = (
 				D0A2A97E2CC929F9000B4ACF /* CONETLib */,
 				D0A2A9882CC929F9000B4ACF /* CONETLibTests */,
+				D0A2A99D2CC92B25000B4ACF /* CONETLibsExamples */,
+				D0A2A9AC2CC92B26000B4ACF /* CONETLibsExamplesTests */,
+				D0A2A9B62CC92B26000B4ACF /* CONETLibsExamplesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +335,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D0A2A9872CC929F9000B4ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A2A99C2CC92B25000B4ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A2A9AB2CC92B26000B4ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A2A9B52CC92B26000B4ACF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,6 +379,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0A2A99A2CC92B25000B4ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A2A9A92CC92B26000B4ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A2A9B32CC92B26000B4ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -224,6 +407,16 @@
 			isa = PBXTargetDependency;
 			target = D0A2A97E2CC929F9000B4ACF /* CONETLib */;
 			targetProxy = D0A2A98B2CC929F9000B4ACF /* PBXContainerItemProxy */;
+		};
+		D0A2A9AF2CC92B26000B4ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0A2A99D2CC92B25000B4ACF /* CONETLibsExamples */;
+			targetProxy = D0A2A9AE2CC92B26000B4ACF /* PBXContainerItemProxy */;
+		};
+		D0A2A9B92CC92B26000B4ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0A2A99D2CC92B25000B4ACF /* CONETLibsExamples */;
+			targetProxy = D0A2A9B82CC92B26000B4ACF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -451,6 +644,136 @@
 			};
 			name = Release;
 		};
+		D0A2A9C02CC92B26000B4ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CONETLibsExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = 7M7YV9RB5V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CONET-Labs.CONETLibsExamples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0A2A9C12CC92B26000B4ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CONETLibsExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = 7M7YV9RB5V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CONET-Labs.CONETLibsExamples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0A2A9C32CC92B26000B4ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M7YV9RB5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CONET-Labs.CONETLibsExamplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CONETLibsExamples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CONETLibsExamples";
+			};
+			name = Debug;
+		};
+		D0A2A9C42CC92B26000B4ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M7YV9RB5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CONET-Labs.CONETLibsExamplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CONETLibsExamples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CONETLibsExamples";
+			};
+			name = Release;
+		};
+		D0A2A9C62CC92B26000B4ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M7YV9RB5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CONET-Labs.CONETLibsExamplesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CONETLibsExamples;
+			};
+			name = Debug;
+		};
+		D0A2A9C72CC92B26000B4ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M7YV9RB5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CONET-Labs.CONETLibsExamplesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CONETLibsExamples;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -477,6 +800,33 @@
 			buildConfigurations = (
 				D0A2A9982CC929F9000B4ACF /* Debug */,
 				D0A2A9992CC929F9000B4ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A2A9BF2CC92B26000B4ACF /* Build configuration list for PBXNativeTarget "CONETLibsExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A2A9C02CC92B26000B4ACF /* Debug */,
+				D0A2A9C12CC92B26000B4ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A2A9C22CC92B26000B4ACF /* Build configuration list for PBXNativeTarget "CONETLibsExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A2A9C32CC92B26000B4ACF /* Debug */,
+				D0A2A9C42CC92B26000B4ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A2A9C52CC92B26000B4ACF /* Build configuration list for PBXNativeTarget "CONETLibsExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A2A9C62CC92B26000B4ACF /* Debug */,
+				D0A2A9C72CC92B26000B4ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
