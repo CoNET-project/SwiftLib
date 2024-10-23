@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "COENTLib"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of COENTLib."
+  spec.summary      = "CONET Project library for Swift"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -92,7 +92,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.swift_version = "4.2"
+  spec.ios.deployment_target = "16"
+  spec.source_files  = "CONETLib/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
